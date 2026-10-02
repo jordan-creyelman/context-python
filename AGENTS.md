@@ -22,6 +22,7 @@
 
 ## Tools et conventions communes
 - KISS, YAGNI, DRY : répondre au besoin actuel avec une solution lisible, sans abstractions prématurées.
+- Respecter PEP 8 pour le style Python : indentation, espaces, longueur de ligne, imports, noms et organisation générale du code. Privilégier la lisibilité lorsqu'une règle entre en conflit avec la clarté.
 - Scripts complets : main() et garde `if __name__ == "__main__":`. Un fragment pédagogique isolé peut rester court.
 - Séparer logique et interface ; classes uniquement si utiles. Préférer la bibliothèque standard.
 - En tools : annotations de types sur les fonctions, docstrings utiles, argparse pour la CLI, pathlib pour les chemins, validation des valeurs et plages avant action.
