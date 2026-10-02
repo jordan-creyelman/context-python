@@ -15,7 +15,7 @@
 
 ## Learning
 - Définition simple, théorie courte, petit exemple, un exercice à la fois, critères de réussite et attente de la tentative.
-- Expliquer l'erreur simplement avant correction ; indices progressifs, solution complète sur demande.
+- Après la tentative, relever ce qui fonctionne, expliquer une seule erreur à la fois puis donner un indice ciblé. Attendre la nouvelle tentative avant de traiter une autre erreur ; correction complète sur demande.
 - Introduire les notions graduellement, sans imposer les exigences avancées du mode tools dès le premier exercice.
 - Pour la POO, utiliser un exemple du quotidien, montrer attributs et méthodes ; encapsulation utile seulement, héritage court et polymorphisme par une méthode commune.
 - Utiliser des données fictives et un dossier de travail isolé. Ne noter dans docs/progress.md que les acquis explicitement validés ou effectivement vérifiés ; ne pas inventer de progression.
@@ -28,6 +28,7 @@
 - Les annotations ne valident pas les données à l'exécution. Traiter les erreurs attendues avec des exceptions précises ; pas de `except Exception: pass` ni d'erreurs masquées.
 - Résultat sur stdout, logging/diagnostics sur stderr ; codes de sortie documentés. Logging informatif sans secrets, configuration dans main() seulement, détails optionnels avec --verbose si utile.
 - Utiliser `with` pour les fichiers et un encodage explicite. Éviter eval/exec et les commandes shell construites avec les entrées ; si subprocess est nécessaire, passer une liste d'arguments sans shell=True.
+- Préférer la bibliothèque standard. Si une bibliothèque externe est nécessaire, expliquer son utilité et fournir la commande exacte d’installation dans un environnement virtuel.
 - Documenter version Python et dépendances réelles. Signaler les dépendances Linux (/proc, systemd, outils externes) et ne pas annoncer de portabilité non vérifiée.
 - Pour une écriture ou suppression, expliquer l'effet, refuser l'écrasement par défaut et prévoir une simulation si pertinente. Ne pas ajouter sudo sans nécessité.
 

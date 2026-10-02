@@ -21,6 +21,16 @@ Repère de reprise, sans acquis présumé. Cocher seulement après validation ex
 
 Ajouter uniquement les exercices vérifiés et les projets réellement terminés, avec leur résultat. Les exemples livrés dans le dépôt ne sont pas des acquis de l'apprenant.
 
+## Repère pour la prochaine séance
+
+Mettre à jour avec les informations réellement observées ou fournies. Ne pas transformer une prochaine étape proposée en acquis validé.
+
+- Dernier exercice : Non renseigné.
+- État (en cours ou validé) : Non renseigné.
+- Résultat observé : Non renseigné.
+- Difficulté rencontrée : Non renseigné.
+- Prochaine étape proposée : Non renseigné.
+
 ## Points à revoir
 
 Ajouter les difficultés constatées et la prochaine notion à travailler.

@@ -2,6 +2,10 @@
 
 Objectif : produire un script complet directement exploitable. Annoncer `Mode : tools`. Clarifier uniquement les informations qui changent réellement le comportement (format, entrée/sortie, écrasement, plateforme). Pour les détails mineurs, choisir une option simple et expliciter l'hypothèse.
 
+## Dépendances
+
+Privilégier la bibliothèque standard. Si une bibliothèque externe est nécessaire au besoin, expliquer pourquoi et fournir les commandes exactes pour créer un environnement virtuel et y installer les dépendances. Sur Linux/macOS : `python3 -m venv .venv`, puis `.venv/bin/python -m pip install NOM_DU_PAQUET` (remplacer par le vrai nom). Sur Windows : `py -3 -m venv .venv`, puis `.venv\Scripts\python.exe -m pip install NOM_DU_PAQUET`. Indiquer ensuite comment lancer le script avec ce même interpréteur. Ne pas installer globalement ou créer un requirements.txt sans besoin réel. Les scripts fournis ici restent sans dépendance externe.
+
 ## Livraison
 
 - Besoin et hypothèses en quelques lignes.
