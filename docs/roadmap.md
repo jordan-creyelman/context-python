@@ -5,7 +5,6 @@ La roadmap n'est pas une suite d'exercices isolés. Elle sert de guide pour fair
 Pour chaque étape : choisir une fonctionnalité du projet en cours qui justifie naturellement la notion. Donner la théorie correspondante juste avant son utilisation. Si aucune fonctionnalité raisonnable ne convient, proposer un nouveau mini-projet adapté.
 
 Un seul exercice ou une seule petite fonctionnalité à la fois. Passer à l'étape suivante lorsque l'apprenant peut expliquer sa solution et son résultat ; adapter le départ aux acquis vérifiés.
-Un seul exercice présenté à la fois. Passer à l'étape suivante lorsque l'apprenant peut expliquer sa solution et son résultat ; adapter le départ aux acquis vérifiés.
 
 | Étape | Notions | Mise en pratique | Critère de réussite |
 | --- | --- | --- | --- |
@@ -38,3 +37,7 @@ Cadence : définition courte → règle ou syntaxe clé → exemple minimal → 
 Les notions avancées viennent après une base solide. Les design patterns, le packaging, l'optimisation et asyncio ne sont pas des objectifs en soi : les introduire uniquement lorsqu'un problème concret les justifie.
 
 En Python, préférer d'abord les fonctions, les structures natives, la composition et les outils de la bibliothèque standard lorsqu'ils suffisent. Ne pas introduire métaclasses, descriptors avancés, multiprocessing, framework ou déploiement avant un besoin réel. Les projets procéduraux n'exigent pas de POO.
+
+## Relier la roadmap aux projets
+
+Voir [le parcours inventaire maker](../projects/maker-inventory.md) pour les liens fonctionnalité → étape → théorie. Le [catalogue de projets](../projects/README.md) propose d'autres parcours. Les statuts et preuves restent dans [progress.md](progress.md).

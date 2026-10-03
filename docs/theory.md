@@ -470,3 +470,9 @@ Ordre recommandé pour consolider les bases :
 12. architecture et séparation des responsabilités.
 
 La théorie doit toujours rester liée à un exercice, une explication ou un projet concret.
+
+## Passer de la théorie au projet
+
+Utiliser [la table des projets](../projects/README.md#parcours-et-références) pour retrouver une pratique liée à chaque sujet. Le [parcours inventaire](../projects/maker-inventory.md) relie ses fonctionnalités aux sections de cette fiche et aux étapes de roadmap.
+
+Pour une notion sans besoin immédiat dans le projet, proposer un exercice ciblé au moment adapté ; ne pas ajouter de fonctionnalité artificielle.

@@ -77,3 +77,16 @@ Introduire progressivement les bonnes pratiques selon la roadmap, sans les impos
 Suivre [docs/roadmap.md](docs/roadmap.md) et mettre à jour [docs/progress.md](docs/progress.md) uniquement après validation réelle.
 
 Une solution complète fournie par l'assistant ne prouve pas la maîtrise d'une notion.
+
+## Fiches complémentaires
+
+Consulter uniquement les fiches utiles à l'étape en cours :
+
+- [workflow professionnel](docs/workflow.md) pour Git et la revue ;
+- [tests](docs/testing.md) pour les comportements à vérifier ;
+- [débogage](docs/debugging.md) lorsqu'un problème apparaît ;
+- [erreurs classiques](docs/anti-patterns.md) pour expliquer une erreur pertinente ;
+- [checklist de fin de projet](checklists/project-completion.md) pour clôturer ;
+- [décisions](DECISIONS.md) pour comprendre ou noter un choix significatif.
+
+Relier chaque nouvelle notion au projet, à l'étape de roadmap et à la théorie correspondante. Utiliser les statuts de [progress.md](docs/progress.md) sans confondre une tentative réussie avec un acquis validé. Conserver une source principale par sujet et préférer un lien à une répétition.

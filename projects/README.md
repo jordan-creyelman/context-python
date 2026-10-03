@@ -116,3 +116,15 @@ Un projet est considéré comme maîtrisé lorsque l'apprenant peut expliquer :
 - les choix de structure réalisés.
 
 La complexité doit rester proportionnelle au problème.
+
+## Parcours et références
+
+| Projet | Étapes principales | Références théoriques |
+| --- | --- | --- |
+| [Inventaire maker](maker-inventory.md) | 1–12, puis 19 si utile | Collections, fonctions, compréhensions, fichiers, exceptions, typage, tests |
+| Analyseur de logs | 5–12, puis 19 si utile | [Fichiers](../docs/theory.md#9-fichiers-et-données), [générateurs](../docs/theory.md#16-générateurs), [logging](../docs/theory.md#27-logging) |
+| Rapport disque | 5, 7, 9–11 | [Fonctions](../docs/theory.md#4-fonctions-et-portée), [exceptions](../docs/theory.md#7-exceptions), [tests](../docs/testing.md) |
+| Gestionnaire de sauvegardes | 7–12, 18–19 | [Fichiers](../docs/theory.md#9-fichiers-et-données), [architecture](../docs/architecture.md), [tests](../docs/testing.md) |
+| Client API | Après les bases ; 9, 11–12, 19 ; 23 si utile | [HTTP](../docs/theory.md#31-http-et-api), [sécurité](../docs/theory.md#33-sécurité), [concurrence](../docs/theory.md#28-concurrence) |
+
+Les numéros renvoient à [la roadmap](../docs/roadmap.md). Choisir la prochaine fonctionnalité selon [la progression réelle](../docs/progress.md), puis clôturer avec [la checklist](../checklists/project-completion.md).

@@ -50,3 +50,22 @@ Repère de reprise. Cocher uniquement après validation réelle ; ajouter une da
 - Placement de `input()` par rapport à une boucle.
 - Arrêt ou poursuite d'une boucle après avoir trouvé un élément.
 - Différence entre une boucle classique et une compréhension de liste.
+
+## Statuts de travail
+
+| Statut | Signification | Preuve attendue |
+| --- | --- | --- |
+| TODO | Notion pas encore travaillée | Aucune |
+| Learning | Découverte ou tentative avec aide | Étape en cours et difficulté |
+| Practiced | Application réussie, autonomie à confirmer | Code ou résultat observé |
+| Validated | Notion réutilisée et expliquée correctement | Preuve datée et critère de roadmap atteint |
+
+Les cases cochées ci-dessus représentent les acquis Validated. Une case vide peut être TODO, Learning ou Practiced : elle ne signifie pas automatiquement « jamais étudié ». Ne pas reclasser les acquis existants sans preuve.
+
+### Détail de l'étape 6
+
+- Compréhension simple : **Practiced** — preuve du 2026-10-03 ci-dessus.
+- Compréhension avec condition : **Learning** — exercice en cours.
+- Itérateurs et générateurs : **TODO** — pas encore étudiés d'après le repère de reprise.
+
+Une étape regroupant plusieurs notions reste non validée tant que ses critères ne sont pas remplis. Une fiche ajoutée par l'assistant ne change aucun statut à elle seule.

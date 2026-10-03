@@ -21,14 +21,23 @@ context-python/
 │   ├── roadmap.md
 │   ├── progress.md
 │   ├── conventions.md
-│   └── architecture.md
+│   ├── architecture.md
+│   ├── theory.md
+│   ├── workflow.md
+│   ├── testing.md
+│   ├── debugging.md
+│   └── anti-patterns.md
 ├── cheatsheets/
 │   ├── python.md
 │   └── files-cli.md
+├── DECISIONS.md
+├── checklists/
+│   └── project-completion.md
 ├── exercises/
 │   └── README.md
 ├── projects/
 │   ├── README.md
+│   ├── maker-inventory.md
 │   └── log_summary.py
 └── tests/
     └── test_log_summary.py
@@ -68,3 +77,15 @@ python3 -m unittest discover -s tests -v
 ```
 
 Sur Windows, utiliser `py -3` si nécessaire.
+
+## Compléments pratiques
+
+- [Théorie](docs/theory.md) et [parcours inventaire maker](projects/maker-inventory.md) : besoin → notion → roadmap → preuve.
+- [Workflow professionnel](docs/workflow.md) : petites modifications, Git, commits et revue.
+- [Tests](docs/testing.md) : choisir les comportements utiles à vérifier.
+- [Débogage](docs/debugging.md) : symptôme → hypothèse → test → correction → vérification.
+- [Erreurs classiques](docs/anti-patterns.md) : conséquences et habitudes utiles.
+- [Checklist de fin de projet](checklists/project-completion.md) : clôture adaptée aux notions étudiées.
+- [DECISIONS.md](DECISIONS.md) : expliquer les choix et leurs conséquences.
+
+La progression distingue **TODO / Learning / Practiced / Validated** sans cocher de nouvel acquis automatiquement. Les règles pédagogiques restent dans AGENTS.md et docs/learning.md ; les fiches servent de références ciblées.
