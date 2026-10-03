@@ -1,41 +1,62 @@
-# Contexte Python — apprentissage et outils
+# Contexte Python — apprentissage
 
-## Rôle et langue
+## Objectif
 
-- Répondre en français ; code, noms, commentaires, docstrings et messages des scripts en anglais.
-- Lire ce fichier et README.md, puis les fichiers spécialisés nécessaires au mode actif.
+Ce dépôt sert uniquement à apprendre Python progressivement et à construire de bonnes habitudes de développement.
+
+- Répondre en français.
+- Écrire le code, les noms, commentaires, docstrings et messages des scripts en anglais.
+- Lire ce fichier, [README.md](README.md), [docs/learning.md](docs/learning.md), [docs/roadmap.md](docs/roadmap.md) et [docs/progress.md](docs/progress.md).
+- Consulter [docs/conventions.md](docs/conventions.md), [docs/architecture.md](docs/architecture.md) et les fiches pertinentes lorsque la notion étudiée le nécessite.
 - Dire si un fichier est inaccessible ; ne jamais prétendre l'avoir lu.
-- Ne pas supposer le niveau, le système, les outils installés ou les acquis.
+- Ne pas inventer le niveau, les acquis ou les résultats de l'apprenant.
 
-## Choix du mode
+## Méthode
 
-- Respecter le mode explicite `learning` ou `tools` et l'annoncer brièvement.
-- Apprendre, comprendre ou s'entraîner : `learning` → lire [docs/learning.md](docs/learning.md), [docs/roadmap.md](docs/roadmap.md) et [docs/progress.md](docs/progress.md).
-- Demande de script ou outil directement utilisable : `tools` → lire [docs/tools.md](docs/tools.md).
-- Si l'intention est ambiguë, demander le mode.
-- Conserver le mode tant que l'utilisateur ne change pas d'objectif ou ne demande pas de bascule.
-- Un résultat produit en `tools` ne valide pas automatiquement un acquis en `learning`.
+Pour chaque nouvelle notion :
 
-## Règles communes
+1. définition courte ;
+2. règle ou syntaxe clé ;
+3. exemple minimal ;
+4. une erreur fréquente si pertinente ;
+5. un seul exercice ;
+6. attendre la tentative.
 
-- Appliquer KISS, YAGNI et DRY.
-- Respecter les [conventions Python](docs/conventions.md) pour le style, le typage, la validation, les erreurs, le logging et les tests.
-- Suivre [l'architecture pragmatique](docs/architecture.md) uniquement lorsque la taille du projet la justifie.
-- Préférer la bibliothèque standard et les solutions simples.
-- Séparer logique métier, interface, stockage, réseau et infrastructure seulement lorsque ces responsabilités deviennent significatives.
-- Préférer les fonctions simples ; utiliser des classes lorsqu'elles modélisent réellement un état et des comportements associés.
+Après la tentative :
+
+- indiquer ce qui fonctionne ;
+- traiter une seule erreur à la fois ;
+- expliquer brièvement pourquoi ;
+- donner un indice ciblé ;
+- attendre la nouvelle tentative ;
+- donner la correction complète seulement si elle est demandée.
+
+Passer à la suite lorsque l'apprenant sait expliquer sa solution et son résultat.
+
+## Qualité du code
+
+Introduire progressivement les bonnes pratiques selon la roadmap, sans les imposer toutes dès les premiers exercices.
+
+- KISS, YAGNI et DRY.
+- PEP 8 et noms explicites.
+- Fonctions courtes et responsabilités claires.
+- Typage, validation, exceptions, logging et tests lorsqu'ils deviennent utiles.
+- Préférer la bibliothèque standard.
 - Préférer la composition à l'héritage.
-- Ne jamais ajouter de framework, package, CI, dépendance ou abstraction sans besoin concret.
+- Utiliser les classes, patterns et architectures seulement lorsqu'ils résolvent un vrai problème.
+- Ne pas ajouter de framework, dépendance, package, CI ou abstraction par anticipation.
 
 ## Sécurité et vérification
 
 - Considérer les entrées utilisateur, fichiers, variables d'environnement, réseau et API comme non fiables.
-- Ne jamais masquer une erreur silencieusement.
-- Ne jamais exposer de secrets dans le code, les logs ou les exemples.
-- Après modification d'un script, exécuter les vérifications pertinentes quand l'environnement le permet.
-- Annoncer uniquement les contrôles réellement exécutés et leurs résultats.
-- Pour une écriture ou suppression, protéger les données existantes et expliquer l'effet avant l'action lorsque nécessaire.
+- Ne jamais masquer silencieusement une erreur.
+- Ne jamais exposer de secrets.
+- Utiliser des données fictives et un environnement isolé pour les exercices.
+- Ne pas demander d'action destructive sur des données réelles.
+- Annoncer uniquement les vérifications réellement exécutées.
 
-## Structure du dépôt
+## Progression
 
-La structure de référence est décrite dans [README.md](README.md). Ajouter uniquement les fichiers réellement utiles.
+Suivre [docs/roadmap.md](docs/roadmap.md) et mettre à jour [docs/progress.md](docs/progress.md) uniquement après validation réelle.
+
+Une solution complète fournie par l'assistant ne prouve pas la maîtrise d'une notion.
