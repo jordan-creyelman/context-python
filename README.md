@@ -1,17 +1,14 @@
 # context-python
 
-Contexte réutilisable pour apprendre Python et produire de petits outils utiles, notamment pour Linux et l'administration système. Inspiré de [context-bash](https://github.com/jordan-creyelman/context-bash) : même approche simple, progressive et pragmatique.
+Contexte réutilisable consacré à **l'apprentissage de Python** : théorie courte, pratique progressive, un exercice à la fois et validation réelle des acquis.
 
 Explications en français ; code, commentaires, docstrings et messages des scripts en anglais.
 
-## Modes
+## Principe
 
-| Mode | Objectif | Fichier principal |
-| --- | --- | --- |
-| `learning` | Apprendre progressivement, un exercice à la fois | [docs/learning.md](docs/learning.md) |
-| `tools` | Produire un script directement utilisable | [docs/tools.md](docs/tools.md) |
+Le dépôt n'a qu'un objectif : apprendre Python correctement, des bases jusqu'aux notions avancées utiles.
 
-Le choix du mode et les règles communes sont centralisés dans [AGENTS.md](AGENTS.md).
+La qualité du code fait partie de l'apprentissage : typage, gestion d'erreurs, tests, architecture et design patterns sont introduits progressivement lorsqu'ils deviennent pertinents.
 
 ## Structure
 
@@ -21,7 +18,6 @@ context-python/
 ├── README.md
 ├── docs/
 │   ├── learning.md
-│   ├── tools.md
 │   ├── roadmap.md
 │   ├── progress.md
 │   ├── conventions.md
@@ -40,34 +36,35 @@ context-python/
 
 ## Repères
 
-- [docs/conventions.md](docs/conventions.md) : conventions Python, validation, erreurs, logging et tests.
-- [docs/architecture.md](docs/architecture.md) : architecture progressive, `src/`, Clean Architecture et DDD.
-- [docs/roadmap.md](docs/roadmap.md) : progression d'apprentissage.
+- [AGENTS.md](AGENTS.md) : règles générales du contexte.
+- [docs/learning.md](docs/learning.md) : méthode pédagogique.
+- [docs/roadmap.md](docs/roadmap.md) : ordre des notions.
 - [docs/progress.md](docs/progress.md) : acquis réellement validés.
+- [docs/conventions.md](docs/conventions.md) : bonnes pratiques Python à apprendre progressivement.
+- [docs/architecture.md](docs/architecture.md) : architecture pragmatique pour les étapes avancées.
 - [cheatsheets/python.md](cheatsheets/python.md) : mémo Python.
-- [cheatsheets/files-cli.md](cheatsheets/files-cli.md) : fichiers, argparse et tests.
-- [projects/log_summary.py](projects/log_summary.py) : script de référence du mode `tools`.
+- [cheatsheets/files-cli.md](cheatsheets/files-cli.md) : fichiers, CLI et tests.
+- [projects/log_summary.py](projects/log_summary.py) : projet de référence à étudier lorsque les prérequis sont acquis.
 
 ## Utilisation
 
-Pour apprendre :
+Exemple :
 
-> Lis AGENTS.md puis applique le mode learning de context-python. Reprends depuis ma progression validée et donne un seul exercice.
+> Lis AGENTS.md et le contexte de context-python. Reprends depuis ma progression validée, donne-moi la théorie essentielle puis un seul exercice.
 
-Pour produire un outil :
+Pour travailler une notion précise :
 
-> Lis AGENTS.md puis applique le mode tools de context-python. Crée un script qui compte les lignes ERROR d'un journal UTF-8 avec les tests essentiels.
+> Utilise context-python pour m'apprendre les exceptions. Théorie courte puis un exercice à la fois.
 
-## Environnement de référence
+## Environnement
 
-Python **3.11+**. Les exemples fournis utilisent uniquement la bibliothèque standard.
+Python **3.11+** pour les exemples actuels. La bibliothèque standard est privilégiée.
 
-Depuis la racine du dépôt :
+Pour vérifier les projets fournis :
 
 ```bash
-python3 projects/log_summary.py --help
-python3 -m unittest discover -s tests -v
 python3 -m compileall -q projects tests
+python3 -m unittest discover -s tests -v
 ```
 
 Sur Windows, utiliser `py -3` si nécessaire.
