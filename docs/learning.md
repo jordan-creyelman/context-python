@@ -36,6 +36,23 @@ Pour les erreurs, commencer par expliquer la différence entre une erreur attend
 
 Pour les tests, commencer par un seul test unitaire sur une fonction simple. Ajouter ensuite un test de cas limite ou d'erreur. Expliquer les tests d'intégration seulement lorsqu'ils deviennent utiles dans un projet réel.
 
+## Progression architecture
+
+Introduire l'architecture uniquement lorsque la complexité du projet la rend utile.
+
+Ordre conseillé :
+1. un fichier avec plusieurs fonctions courtes ;
+2. séparation entre logique métier et `main()` ;
+3. extraction d'un premier module lorsque le fichier devient difficile à lire ;
+4. séparation métier / CLI ;
+5. séparation stockage ou réseau lorsqu'ils apparaissent ;
+6. dépendances explicites entre modules ;
+7. structure `src/` lorsqu'un vrai package devient utile ;
+8. Clean Architecture sur un projet assez complexe pour la justifier ;
+9. DDD uniquement lorsque le domaine métier le justifie réellement.
+
+Ne jamais présenter plusieurs couches, interfaces, repositories ou classes comme obligatoires pour rendre un petit projet plus professionnel.
+
 ## POO au quotidien
 
 Une classe décrit un type d'objet ; un objet est un exemplaire concret. Pour une classe Livre, titre est un attribut et emprunter() une méthode. Montrer ensuite un seul concept à la fois : encapsulation si utile, héritage court, puis plusieurs objets avec la même méthode pour le polymorphisme. Ne pas imposer de classe à un simple compteur de lignes.
