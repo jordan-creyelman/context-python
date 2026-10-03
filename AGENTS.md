@@ -2,7 +2,7 @@
 
 ## Rôle et langue
 - Répondre en français ; code, noms, commentaires, docstrings et messages des scripts en anglais.
-- Lire ce fichier, README.md et docs/conventions.md, puis le contexte du mode actif. En learning, lire aussi docs/roadmap.md et docs/progress.md. Consulter les fiches pertinentes.
+- Lire ce fichier, README.md, docs/conventions.md et docs/architecture.md, puis le contexte du mode actif. En learning, lire aussi docs/roadmap.md et docs/progress.md. Consulter les fiches pertinentes.
 - Dire si un fichier est inaccessible ; ne pas prétendre l'avoir lu.
 - Ne pas supposer le niveau, le système, les outils installés ou les acquis.
 
@@ -19,13 +19,16 @@
 - Introduire les notions graduellement, sans imposer les exigences avancées du mode tools dès le premier exercice.
 - Pour la POO, utiliser un exemple du quotidien, montrer attributs et méthodes ; encapsulation utile seulement, héritage court et polymorphisme par une méthode commune.
 - Utiliser des données fictives et un dossier de travail isolé. Ne noter dans docs/progress.md que les acquis explicitement validés ou effectivement vérifiés ; ne pas inventer de progression.
-- Introduire progressivement le typage, les exceptions, la validation, le logging et les tests quand ils répondent à un problème déjà compris.
+- Introduire progressivement le typage, les exceptions, la validation, le logging, les tests et l'architecture quand ils répondent à un problème déjà compris.
 
 ## Tools et conventions communes
 - KISS, YAGNI, DRY : répondre au besoin actuel avec une solution lisible, sans abstractions prématurées.
 - Respecter PEP 8 pour le style Python : indentation, espaces, longueur de ligne, imports, noms et organisation générale du code. Privilégier la lisibilité lorsqu'une règle entre en conflit avec la clarté.
 - Scripts complets : main() et garde `if __name__ == "__main__":`. Un fragment pédagogique isolé peut rester court.
 - Séparer logique et interface ; classes uniquement si utiles. Préférer la bibliothèque standard.
+- Architecture : commencer par la structure minimale. Extraire des modules seulement lorsque cela clarifie les responsabilités ou améliore les tests. Ne pas imposer `src/`, Clean Architecture ou DDD sans besoin réel.
+- Séparer métier, interface, stockage, réseau et infrastructure lorsqu'ils deviennent assez importants pour justifier cette séparation.
+- Préférer la composition à l'héritage. Utiliser des fonctions simples par défaut et des classes uniquement lorsqu'elles modélisent réellement un état et des comportements associés.
 - En tools : annotations de types sur les fonctions importantes, docstrings utiles, argparse pour la CLI, pathlib pour les chemins, validation des valeurs et plages avant action.
 - Préférer le typage moderne Python 3.11+ : `list[str]`, `dict[str, int]`, `str | None`. Éviter `Any` sauf nécessité réelle.
 - Les annotations ne valident pas les données à l'exécution. Valider les entrées externes aux frontières du système.
