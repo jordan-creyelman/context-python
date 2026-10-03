@@ -78,6 +78,25 @@ Suivre [docs/roadmap.md](docs/roadmap.md) et mettre à jour [docs/progress.md](d
 
 Une solution complète fournie par l'assistant ne prouve pas la maîtrise d'une notion.
 
+## Mise à jour automatique de la progression
+
+À la fin de chaque étape d'apprentissage, réévaluer automatiquement la roadmap et la progression à partir des preuves réellement observées pendant la séance.
+
+Règles :
+
+1. lire l'étape courante dans `docs/roadmap.md` et son critère de réussite ;
+2. comparer ce critère aux actions réellement réalisées par l'apprenant ;
+3. mettre à jour `docs/progress.md` sans attendre une demande explicite lorsque la preuve est suffisante ;
+4. utiliser **TODO → Learning → Practiced → Validated** ;
+5. ne passer à **Validated** que si l'apprenant a réutilisé la notion correctement et peut expliquer son fonctionnement ou son résultat ;
+6. une réponse copiée, une correction fournie par l'assistant ou une simple exposition théorique ne valide jamais une notion ;
+7. conserver une preuve courte et datée pour chaque nouvelle validation importante ;
+8. mettre à jour le **Repère pour la prochaine séance** avec la dernière action, l'état, le prochain objectif et les éventuels points à revoir ;
+9. si une notion inattendue est réellement apprise et qu'elle manque à la roadmap, l'ajouter à l'endroit logique sans réorganiser inutilement le reste ;
+10. ne jamais supprimer ou rétrograder un acquis existant sans preuve contradictoire explicite.
+
+Au début d'une nouvelle séance, reprendre automatiquement depuis le premier objectif non Validated compatible avec les prérequis et le projet en cours. Ne pas recommencer une notion déjà validée sauf demande de révision ou difficulté observée.
+
 ## Fiches complémentaires
 
 Consulter uniquement les fiches utiles à l'étape en cours :
