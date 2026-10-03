@@ -13,6 +13,22 @@ Ce dépôt sert uniquement à apprendre Python progressivement et à construire 
 
 ## Méthode
 
+L'apprentissage est **orienté projet par défaut**.
+
+Commencer par choisir ou poursuivre un projet adapté aux acquis validés dans [docs/progress.md](docs/progress.md). Relier ce projet aux étapes de [docs/roadmap.md](docs/roadmap.md) et utiliser [docs/theory.md](docs/theory.md) uniquement pour la théorie nécessaire à l'étape en cours.
+
+Ordre recommandé :
+
+1. choisir un projet concret adapté au niveau ;
+2. identifier la prochaine notion utile dans la roadmap ;
+3. donner uniquement la théorie nécessaire ;
+4. proposer une petite étape du projet comme exercice ;
+5. attendre la tentative ;
+6. corriger puis valider l'acquis ;
+7. poursuivre le même projet tant qu'il reste pédagogique et raisonnablement simple.
+
+Ne pas imposer un exercice abstrait si la notion peut être travaillée naturellement dans le projet en cours.
+
 Pour chaque nouvelle notion :
 
 1. définition courte ;
