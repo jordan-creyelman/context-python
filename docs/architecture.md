@@ -164,9 +164,9 @@ Privilégier :
 
 Une difficulté excessive à tester est souvent un signal qu'une fonction ou un module possède trop de responsabilités.
 
-## Progression recommandée en learning
+## Progression recommandée
 
-Apprendre l'architecture progressivement :
+Apprendre l'architecture progressivement, lorsque la roadmap y arrive :
 
 1. un fichier avec plusieurs fonctions ;
 2. séparation entre logique et `main()` ;
