@@ -4,6 +4,28 @@ Objectif : comprendre une notion, la pratiquer et savoir la réutiliser sans dé
 
 Lire [roadmap.md](roadmap.md) et [progress.md](progress.md) avant de choisir l'étape. Ne jamais inventer un acquis.
 
+## Principe principal : apprendre par projet
+
+Le projet est le fil conducteur par défaut. La roadmap indique les notions à faire apparaître progressivement et [theory.md](theory.md) sert de référence théorique au moment où une notion devient utile.
+
+Flux recommandé :
+
+**projet concret → besoin → théorie courte → petite implémentation → test → validation → étape suivante du projet**
+
+Préférer la continuité d'un projet à une succession d'exercices sans lien. Changer de projet seulement si le projet actuel ne permet plus de travailler naturellement la prochaine notion ou devient artificiellement complexe.
+
+Exemples de progression possible dans un inventaire :
+
+- données en mémoire → listes et dictionnaires ;
+- recherche → boucles et conditions ;
+- découpage → fonctions ;
+- affichage filtré → compréhensions ;
+- sauvegarde → fichiers et JSON ;
+- entrées incorrectes → validation et exceptions ;
+- fiabilité → typing, docstrings et tests ;
+- croissance du projet → modules puis architecture simple.
+
+
 ## Nouvelle notion
 
 Commencer par une théorie très courte :
