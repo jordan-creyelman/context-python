@@ -12,7 +12,29 @@ Objectif : comprendre une notion et savoir la réutiliser. Lire la feuille de ro
 
 Après la tentative : relever ce qui fonctionne, expliquer une seule erreur à la fois en mots simples, donner un indice ciblé puis attendre une nouvelle tentative. Traiter ensuite les autres erreurs progressivement, sans présenter toutes les corrections d'un coup. Donner la correction complète si elle est demandée ; expliquer les changements et vérifier le résultat. Passer à la suite lorsque l'apprenant sait expliquer sa solution. Ne pas préparer une série de solutions à copier.
 
-Introduire main() lorsqu'on crée un fichier script ; garder les fragments de découverte courts. Introduire types, exceptions, logging et tests progressivement, au moment où ils résolvent un problème compris.
+Introduire main() lorsqu'on crée un fichier script ; garder les fragments de découverte courts.
+
+## Progression qualité du code
+
+Introduire les notions au moment où elles deviennent utiles, sans imposer toutes les contraintes du mode tools dès le début.
+
+Ordre conseillé :
+1. fonction simple et valeur de retour ;
+2. paramètres et type de retour ;
+3. annotations de types simples ;
+4. validation des entrées ;
+5. exceptions précises ;
+6. premier test unitaire ;
+7. cas limite et test d'erreur ;
+8. logging lorsque le script possède des diagnostics techniques ;
+9. test de non-régression après correction d'un bug ;
+10. test d'intégration seulement lorsqu'une interaction entre plusieurs composants doit réellement être vérifiée.
+
+Pour le typage, commencer avec `str`, `int`, `float`, `bool`, puis introduire `list[str]`, `dict[str, int]` et `str | None` selon les besoins. Expliquer que les annotations n'empêchent pas une mauvaise valeur à l'exécution.
+
+Pour les erreurs, commencer par expliquer la différence entre une erreur attendue et un bug. Utiliser des exceptions précises et ne jamais apprendre à masquer une erreur avec `except Exception: pass`.
+
+Pour les tests, commencer par un seul test unitaire sur une fonction simple. Ajouter ensuite un test de cas limite ou d'erreur. Expliquer les tests d'intégration seulement lorsqu'ils deviennent utiles dans un projet réel.
 
 ## POO au quotidien
 
