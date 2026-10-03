@@ -22,6 +22,7 @@ from pathlib import Path
 
 
 def count_errors(path: Path) -> int:
+    """Count error lines in a UTF-8 log file."""
     ...
 ```
 
@@ -29,7 +30,18 @@ Préférer le typage moderne : `list[str]`, `dict[str, int]`, `tuple[str, ...]`,
 
 Éviter `Any` sauf nécessité réelle. Les annotations documentent un contrat mais ne valident pas les données à l'exécution.
 
-Une docstring explique le contrat, une limite ou une exception utile ; elle ne paraphrase pas chaque ligne.
+Quand les docstrings ont été introduites dans la progression, elles deviennent obligatoires pour :
+
+- chaque module important ;
+- chaque classe ;
+- chaque fonction importante ;
+- chaque méthode publique importante.
+
+Les docstrings doivent toujours être écrites en anglais.
+
+Une docstring décrit brièvement le rôle, le contrat, les limites ou exceptions utiles. Elle ne paraphrase pas chaque ligne et reste concise.
+
+Les petites fonctions privées évidentes peuvent rester sans docstring si leur nom et leur code rendent leur intention immédiatement claire.
 
 ## Entrées et validation
 
