@@ -40,6 +40,7 @@ Introduire progressivement les bonnes pratiques selon la roadmap, sans les impos
 - KISS, YAGNI et DRY.
 - PEP 8 et noms explicites.
 - Fonctions courtes et responsabilités claires.
+- Ajouter une docstring en anglais à chaque module, classe et fonction importante dès que les docstrings ont été introduites dans la progression.
 - Typage, validation, exceptions, logging et tests lorsqu'ils deviennent utiles.
 - Préférer la bibliothèque standard.
 - Préférer la composition à l'héritage.
