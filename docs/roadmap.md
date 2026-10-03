@@ -6,6 +6,12 @@ Pour chaque étape : choisir une fonctionnalité du projet en cours qui justifie
 
 Un seul exercice ou une seule petite fonctionnalité à la fois. Passer à l'étape suivante lorsque l'apprenant peut expliquer sa solution et son résultat ; adapter le départ aux acquis vérifiés.
 
+## Utilisation dynamique
+
+La roadmap définit **l'ordre pédagogique**, tandis que `progress.md` définit **l'état réel** de l'apprenant. À chaque séance, choisir la première étape non Validated dont les prérequis sont acquis.
+
+Une étape peut être travaillée partiellement : dans ce cas, conserver son état dans `progress.md` plutôt que de cocher prématurément toute l'étape. Lorsqu'une compétence utile apparaît naturellement dans un projet et n'est pas encore listée, l'ajouter ici uniquement si elle mérite de devenir une étape durable du parcours.
+
 | Étape | Notions | Mise en pratique | Critère de réussite |
 | --- | --- | --- | --- |
 | 1 | Exécution, print, variables, chaînes | Afficher un prénom | Modifier une variable et prédire la sortie |
