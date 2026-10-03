@@ -1,12 +1,16 @@
-# Exercices progressifs — learning
+# Exercices progressifs
 
-Suivre [la feuille de route](../docs/roadmap.md) et le [mode learning](../docs/learning.md). Un seul exercice proposé à la fois, attente de la tentative, indices avant correction complète sauf demande explicite.
+Suivre [la feuille de route](../docs/roadmap.md) et la [méthode d'apprentissage](../docs/learning.md).
+
+Un seul exercice à la fois. Attendre la tentative avant la correction ou l'exercice suivant.
 
 ## Premier exercice : salutation
 
-**Objectif :** comprendre variable et affichage. Une variable donne un nom à une valeur ; print affiche un résultat.
+**Objectif :** comprendre variable et affichage.
 
-Petit exemple indépendant :
+Une variable donne un nom à une valeur ; `print()` affiche un résultat.
+
+Exemple indépendant :
 
 ```python
 city = "Brussels"
@@ -15,14 +19,34 @@ print(city)
 
 Sortie : `Brussels`.
 
-**Consigne :** dans un dossier de travail, créer greeting.py. Définir main(), y créer une variable name contenant un prénom fictif et afficher `Hello, <prénom>!`. Appeler main() sous la garde `if __name__ == "__main__":`.
+**Consigne :** créer `greeting.py`. Définir une variable `name` contenant un prénom fictif et afficher `Hello, <name>!`.
 
-**Exécution :** `python3 greeting.py`.
+**Exécution :**
 
-**Critères :** une seule salutation affichée ; changer name change le prénom affiché ; savoir distinguer le nom de la variable de sa valeur.
+```bash
+python3 greeting.py
+```
 
-**À envoyer :** code et sortie observée. Attendre la tentative avant correction ou exercice suivant. Ne pas ajouter argparse, logging ou classes à ce premier exercice.
+**Critères :**
+
+- une seule salutation est affichée ;
+- modifier `name` change la sortie ;
+- savoir distinguer le nom de la variable de sa valeur.
+
+**À envoyer :** code et sortie observée.
+
+Ne pas ajouter argparse, logging, classes ou autres notions qui n'ont pas encore été étudiées.
 
 ## Pour la suite
 
-Créer un fichier exercises/02_topic.py seulement lorsqu'une activité le nécessite. Une notion principale, une consigne concrète, un exemple d'exécution et des critères observables. Utiliser des données fictives. Exécuter chaque script modifié si possible et expliquer les erreurs simplement. Pas de catalogue de solutions préparées.
+Créer un nouvel exercice seulement lorsqu'il est nécessaire.
+
+Chaque exercice doit avoir :
+
+- une notion principale ;
+- une consigne concrète ;
+- un critère de réussite observable ;
+- des données fictives ;
+- une difficulté adaptée à la progression.
+
+Pas de catalogue de solutions préparées.
