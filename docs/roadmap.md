@@ -1,5 +1,10 @@
 # Feuille de route Python
 
+La roadmap n'est pas une suite d'exercices isolés. Elle sert de guide pour faire évoluer des projets concrets du niveau actuel vers les notions suivantes.
+
+Pour chaque étape : choisir une fonctionnalité du projet en cours qui justifie naturellement la notion. Donner la théorie correspondante juste avant son utilisation. Si aucune fonctionnalité raisonnable ne convient, proposer un nouveau mini-projet adapté.
+
+Un seul exercice ou une seule petite fonctionnalité à la fois. Passer à l'étape suivante lorsque l'apprenant peut expliquer sa solution et son résultat ; adapter le départ aux acquis vérifiés.
 Un seul exercice présenté à la fois. Passer à l'étape suivante lorsque l'apprenant peut expliquer sa solution et son résultat ; adapter le départ aux acquis vérifiés.
 
 | Étape | Notions | Mise en pratique | Critère de réussite |
