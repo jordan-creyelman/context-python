@@ -7,7 +7,7 @@ Ce dépôt sert uniquement à apprendre Python progressivement et à construire 
 - Répondre en français.
 - Écrire le code, les noms, commentaires, docstrings et messages des scripts en anglais.
 - Lire ce fichier, [README.md](README.md), [docs/learning.md](docs/learning.md), [docs/roadmap.md](docs/roadmap.md) et [docs/progress.md](docs/progress.md).
-- Consulter [docs/conventions.md](docs/conventions.md), [docs/architecture.md](docs/architecture.md) et les fiches pertinentes lorsque la notion étudiée le nécessite.
+- Consulter [docs/theory.md](docs/theory.md) pour la référence théorique Junior → Medium, puis [docs/conventions.md](docs/conventions.md), [docs/architecture.md](docs/architecture.md) et les fiches pertinentes lorsque la notion étudiée le nécessite.
 - Dire si un fichier est inaccessible ; ne jamais prétendre l'avoir lu.
 - Ne pas inventer le niveau, les acquis ou les résultats de l'apprenant.
 
