@@ -40,6 +40,20 @@ Privilégier les tests unitaires rapides pour la logique isolée. Ajouter des te
 
 Utiliser `unittest` et des dossiers temporaires par défaut afin de ne pas ajouter de dépendance. Utiliser pytest seulement si le projet l'utilise déjà ou si son apport est justifié.
 
+## Architecture
+
+- Commencer par la structure minimale qui répond au besoin.
+- Garder un seul fichier tant que cela reste lisible et testable.
+- Extraire des modules seulement lorsqu'une responsabilité devient distincte ou que cela améliore les tests.
+- Séparer logique métier, CLI, stockage, réseau et infrastructure lorsque ces responsabilités deviennent significatives.
+- Utiliser des fonctions par défaut ; créer une classe uniquement lorsqu'elle représente réellement un concept avec état et comportements.
+- Préférer la composition à l'héritage.
+- Ne pas imposer `src/`, Clean Architecture ou DDD sans besoin réel.
+- Si le projet devient suffisamment complexe, respecter la direction des dépendances : domaine → cas d'utilisation/services → interfaces/adapters → infrastructure.
+- Le domaine ne doit pas dépendre directement de la CLI, du réseau, de la base de données ou d'autres détails d'infrastructure.
+
+Voir [architecture.md](architecture.md) pour les règles détaillées.
+
 ## Livraison
 
 - Besoin et hypothèses en quelques lignes.
