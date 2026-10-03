@@ -2,6 +2,23 @@
 
 Repère de reprise. Cocher uniquement après validation réelle ; ajouter une date et une preuve courte lorsque c'est utile.
 
+## Règle de maintenance automatique
+
+Ce fichier est la **source de vérité de l'état d'apprentissage**. Il doit être mis à jour au fil des séances lorsque des preuves suffisantes sont observées, même si l'apprenant ne demande pas explicitement de modifier la progression.
+
+- **TODO** : pas encore étudié.
+- **Learning** : découverte ou pratique avec aide.
+- **Practiced** : réussi au moins une fois, mais autonomie ou explication encore à confirmer.
+- **Validated** : réutilisé correctement avec compréhension démontrée.
+
+À chaque mise à jour :
+
+1. préserver les acquis déjà établis ;
+2. ajouter une preuve datée concise ;
+3. actualiser le repère de reprise ;
+4. choisir ensuite le prochain objectif non Validated de la roadmap ;
+5. ne jamais valider sur la seule base d'une solution fournie par l'assistant.
+
 ## Acquis validés
 
 - [x] Exécution, print, variables, chaînes
