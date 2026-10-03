@@ -22,7 +22,8 @@ context-python/
 │   ├── tools.md
 │   ├── roadmap.md
 │   ├── progress.md
-│   └── conventions.md
+│   ├── conventions.md
+│   └── architecture.md
 ├── cheatsheets/
 │   ├── python.md
 │   └── files-cli.md
@@ -35,7 +36,7 @@ context-python/
     └── test_log_summary.py
 ```
 
-[AGENTS.md](AGENTS.md) définit les instructions communes et le choix du mode. Les contextes [learning](docs/learning.md) et [tools](docs/tools.md) précisent les réponses attendues. Consulter la [feuille de route](docs/roadmap.md), la [progression](docs/progress.md), les [conventions](docs/conventions.md), les fiches [Python](cheatsheets/python.md) et [fichiers/CLI](cheatsheets/files-cli.md), puis les [exercices](exercises/README.md) ou [projets](projects/README.md) utiles.
+[AGENTS.md](AGENTS.md) définit les instructions communes et le choix du mode. Les contextes [learning](docs/learning.md) et [tools](docs/tools.md) précisent les réponses attendues. Consulter la [feuille de route](docs/roadmap.md), la [progression](docs/progress.md), les [conventions](docs/conventions.md), le guide d'[architecture Python](docs/architecture.md), les fiches [Python](cheatsheets/python.md) et [fichiers/CLI](cheatsheets/files-cli.md), puis les [exercices](exercises/README.md) ou [projets](projects/README.md) utiles.
 
 ## Utiliser ce contexte
 
