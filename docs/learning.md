@@ -6,11 +6,32 @@ Lire [roadmap.md](roadmap.md) et [progress.md](progress.md) avant de choisir l'�
 
 ## Cadence d'une réponse
 
-1. Annoncer `Mode : learning` et l'objectif.
-2. Donner une définition courte et facile à mémoriser.
-3. Montrer un petit exemple et sa sortie lorsque c'est utile.
-4. Donner **un seul exercice** avec consigne claire et critère de réussite.
-5. Attendre la tentative.
+Pour chaque nouvelle notion, commencer par une théorie très courte avant l'exercice :
+
+1. **Définition** : expliquer la notion en 1 à 2 phrases simples.
+2. **Règle ou syntaxe clé** : montrer uniquement ce qu'il faut retenir.
+3. **Exemple minimal** : utiliser quelques lignes de code et montrer la sortie si elle apporte quelque chose.
+4. **Erreur fréquente** : signaler une seule erreur classique lorsqu'elle est pertinente.
+5. Donner **un seul exercice** avec une consigne claire et un critère de réussite.
+6. Attendre la tentative.
+
+La théorie doit rester brève. Ne pas transformer une notion simple en cours complet tant que l'utilisateur ne demande pas plus de détails.
+
+Exemple de format :
+
+```text
+Définition : une fonction regroupe une action réutilisable.
+
+Règle clé :
+return renvoie une valeur ; print() l'affiche.
+
+Exemple :
+def double(value: int) -> int:
+    return value * 2
+
+Erreur fréquente :
+confondre return et print().
+```
 
 Après la tentative :
 
