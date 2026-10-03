@@ -97,6 +97,19 @@ Règles :
 
 Au début d'une nouvelle séance, reprendre automatiquement depuis le premier objectif non Validated compatible avec les prérequis et le projet en cours. Ne pas recommencer une notion déjà validée sauf demande de révision ou difficulté observée.
 
+## Intégration Git/GitHub
+
+Pour toute action ou décision liée à Git ou GitHub dans un projet Python, consulter `context-github` avant de proposer une commande ou un workflow.
+
+Répartition des responsabilités :
+
+- `context-python` : apprentissage Python, code, architecture, tests et progression Python ;
+- `context-github` : Git, GitHub, branches, commits, diff, staging, remote, Issues, Pull Requests, review, merge, tags, CI et sécurité de l'historique.
+
+Pour le projet fil rouge `maker-stock`, conserver dans `context-python` la progression pédagogique Python et enregistrer dans `context-github` les évolutions Git/GitHub significatives du projet : initialisation, branches, commits, changements de structure, PR, tags, CI et jalons publiés.
+
+Ne pas dupliquer toute la documentation entre les deux contextes : conserver une source principale par sujet et utiliser des liens croisés lorsque c'est utile.
+
 ## Fiches complémentaires
 
 Consulter uniquement les fiches utiles à l'étape en cours :
