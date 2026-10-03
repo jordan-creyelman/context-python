@@ -65,6 +65,12 @@ Pour travailler une notion précise :
 
 > Utilise context-python pour m'apprendre les exceptions. Théorie courte puis un exercice à la fois.
 
+## Git et GitHub
+
+Pour toute opération Git/GitHub liée aux projets Python, utiliser aussi le dépôt `context-github` comme référence de workflow et de progression Git.
+
+Le projet `maker-stock` reste documenté pédagogiquement ici, tandis que ses évolutions Git/GitHub significatives sont suivies dans `context-github/projects/maker-stock.md`.
+
 ## Environnement
 
 Python **3.11+** pour les exemples actuels. La bibliothèque standard est privilégiée.
