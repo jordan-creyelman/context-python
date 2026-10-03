@@ -47,6 +47,63 @@ Objectifs pédagogiques :
 
 Ne jamais utiliser de données réelles importantes pour l'exercice.
 
+
+## Projets guidés par la roadmap
+
+Les projets doivent être choisis pour faire apparaître naturellement plusieurs notions successives de la roadmap.
+
+### Inventaire maker
+
+Bon projet pour les étapes débutant → junior :
+
+- listes, dictionnaires et boucles ;
+- fonctions ;
+- compréhensions ;
+- recherche et filtrage ;
+- fichiers JSON ;
+- validation et exceptions ;
+- typing et docstrings ;
+- tests ;
+- modules lorsque le fichier devient réellement trop grand.
+
+### Analyseur de logs
+
+Bon projet pour junior :
+
+- pathlib et fichiers ;
+- itérateurs et générateurs ;
+- exceptions ;
+- CLI avec argparse ;
+- logging ;
+- tests ;
+- séparation entre logique métier et interface.
+
+### Gestionnaire de sauvegardes
+
+Bon projet pour junior → medium :
+
+- validation des chemins ;
+- erreurs système ;
+- configuration ;
+- modules ;
+- architecture simple ;
+- tests d'intégration utiles ;
+- logging.
+
+### Client API
+
+Bon projet pour medium :
+
+- HTTP et JSON ;
+- validation des réponses ;
+- exceptions réseau ;
+- typing ;
+- séparation client / métier ;
+- tests avec dépendances externes isolées ;
+- async uniquement si un besoin de concurrence I/O apparaît.
+
+Un projet n'a pas besoin de couvrir toute la roadmap. Ne jamais ajouter une fonctionnalité artificielle uniquement pour introduire une notion avancée.
+
 ## Projet terminé
 
 Un projet est considéré comme maîtrisé lorsque l'apprenant peut expliquer :
