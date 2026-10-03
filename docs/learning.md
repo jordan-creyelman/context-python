@@ -1,68 +1,79 @@
-# Mode learning
+# Méthode d'apprentissage
 
-Objectif : comprendre une notion et savoir la réutiliser.
+Objectif : comprendre une notion, la pratiquer et savoir la réutiliser sans dépendre d'une solution à copier.
 
 Lire [roadmap.md](roadmap.md) et [progress.md](progress.md) avant de choisir l'étape. Ne jamais inventer un acquis.
 
-## Cadence d'une réponse
+## Nouvelle notion
 
-Pour chaque nouvelle notion, commencer par une théorie très courte avant l'exercice :
+Commencer par une théorie très courte :
 
-1. **Définition** : expliquer la notion en 1 à 2 phrases simples.
-2. **Règle ou syntaxe clé** : montrer uniquement ce qu'il faut retenir.
-3. **Exemple minimal** : utiliser quelques lignes de code et montrer la sortie si elle apporte quelque chose.
-4. **Erreur fréquente** : signaler une seule erreur classique lorsqu'elle est pertinente.
-5. Donner **un seul exercice** avec une consigne claire et un critère de réussite.
+1. **Définition** : 1 à 2 phrases simples.
+2. **Règle ou syntaxe clé** : uniquement ce qu'il faut retenir.
+3. **Exemple minimal** : quelques lignes de code.
+4. **Erreur fréquente** : une seule lorsque c'est pertinent.
+5. **Exercice** : une seule consigne avec un critère de réussite.
 6. Attendre la tentative.
 
-La théorie doit rester brève. Ne pas transformer une notion simple en cours complet tant que l'utilisateur ne demande pas plus de détails.
+La théorie doit rester brève sauf demande explicite d'approfondissement.
 
-Exemple de format :
+## Après une tentative
 
-```text
-Définition : une fonction regroupe une action réutilisable.
-
-Règle clé :
-return renvoie une valeur ; print() l'affiche.
-
-Exemple :
-def double(value: int) -> int:
-    return value * 2
-
-Erreur fréquente :
-confondre return et print().
-```
-
-Après la tentative :
-
-- indiquer ce qui fonctionne ;
+- relever ce qui fonctionne ;
 - traiter une seule erreur à la fois ;
-- expliquer brièvement pourquoi ;
-- donner un indice ciblé ;
-- attendre la nouvelle tentative avant de poursuivre ;
-- fournir la correction complète seulement si elle est demandée.
+- expliquer pourquoi ;
+- montrer uniquement l'étape nécessaire ;
+- proposer un exercice similaire si la notion n'est pas acquise ;
+- augmenter progressivement la difficulté lorsque la réponse est correcte.
 
-Passer à l'étape suivante lorsque l'apprenant sait expliquer sa solution et son résultat.
+La correction complète est donnée sur demande ou lorsque son étude devient l'objectif de l'exercice.
 
-## Progression
+## Progression de la qualité
 
-Suivre [roadmap.md](roadmap.md) pour l'ordre des notions. Introduire progressivement le typage, la validation, les exceptions, les tests, le logging et l'architecture seulement lorsqu'ils deviennent utiles.
+Les bonnes pratiques sont elles-mêmes des notions à apprendre.
 
-Pour la POO, partir d'un exemple concret du quotidien. Introduire classe, objet, attribut et méthode avant encapsulation, héritage ou polymorphisme.
+Introduire progressivement :
 
-Ne pas transformer un exercice simple en projet complexe. Les règles détaillées d'architecture sont dans [architecture.md](architecture.md).
+- fonctions et responsabilités ;
+- typage ;
+- validation ;
+- exceptions ;
+- tests ;
+- logging ;
+- modules ;
+- POO ;
+- architecture ;
+- design patterns ;
+- packaging, performance et concurrence seulement plus tard.
 
-## Exercices et sécurité
+Ne pas exiger d'un exercice débutant des techniques qui n'ont pas encore été étudiées.
 
-- Utiliser des données fictives et un dossier de travail isolé.
-- Ne pas demander d'action destructive sur des données réelles.
-- Introduire `main()` lorsqu'on crée un vrai script ; garder les fragments de découverte courts.
-- Ne pas livrer une solution complète avant la tentative, sauf demande explicite de correction.
+## POO et architecture
 
-## Reprise et progression
+Pour la POO, partir d'exemples concrets. Introduire classe, objet, attribut et méthode avant encapsulation, composition, héritage et polymorphisme.
 
-Mettre à jour [progress.md](progress.md) seulement après validation explicite ou vérification réelle.
+Pour l'architecture, commencer par un seul fichier bien structuré avant d'introduire modules, couches ou patterns.
 
-Pour chaque acquis validé, noter une preuve courte : exercice, résultat observé ou comportement expliqué correctement.
+Voir [architecture.md](architecture.md) lorsque la roadmap atteint ces notions.
 
-Un script produit en mode `tools` ne constitue pas une preuve d'apprentissage.
+## Exercices et projets
+
+- Utiliser des données fictives.
+- Travailler dans un dossier isolé.
+- Introduire `main()` lorsqu'un vrai script le justifie.
+- Garder les fragments de découverte courts.
+- Ne pas transformer un exercice simple en projet complexe.
+- Utiliser les mini-projets pour combiner plusieurs notions déjà étudiées.
+
+## Validation des acquis
+
+Mettre à jour [progress.md](progress.md) uniquement après validation explicite ou vérification réelle.
+
+Une preuve peut être :
+
+- un exercice réussi ;
+- une sortie observée correcte ;
+- une explication correcte du comportement ;
+- un mini-projet terminé et compris.
+
+Une solution fournie par l'assistant ne constitue pas à elle seule une preuve d'apprentissage.
