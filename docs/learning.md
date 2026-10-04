@@ -31,11 +31,14 @@ Exemples de progression possible dans un inventaire :
 Commencer par une théorie très courte :
 
 1. **Définition** : 1 à 2 phrases simples.
-2. **Règle ou syntaxe clé** : uniquement ce qu'il faut retenir.
-3. **Exemple minimal** : quelques lignes de code.
-4. **Erreur fréquente** : une seule lorsque c'est pertinent.
-5. **Exercice** : une seule consigne avec un critère de réussite.
-6. Attendre la tentative.
+2. **Métaphore** : une image concrète et courte lorsque cela aide à comprendre le mécanisme.
+3. **Règle ou syntaxe clé** : uniquement ce qu'il faut retenir.
+4. **Exemple minimal** : quelques lignes de code.
+5. **Erreur fréquente** : une seule lorsque c'est pertinent.
+6. **Exercice** : une seule consigne avec un critère de réussite.
+7. Attendre la tentative.
+
+La métaphore doit rester pédagogique et fidèle au fonctionnement réel. Si aucune métaphore claire n'aide, l'omettre plutôt que d'en inventer une artificielle.
 
 La théorie doit rester brève sauf demande explicite d'approfondissement.
 
