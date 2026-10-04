@@ -41,6 +41,7 @@ Ce fichier est la **source de vérité de l'état d'apprentissage**. Il doit êt
 - [ ] Mini-projet complet
 - [ ] Architecture simple et dépendances
 - [ ] Design patterns essentiels
+- [ ] Environnements Python et uv
 - [ ] Packaging et pyproject.toml
 - [ ] Profiling et performance
 - [ ] asyncio lorsque le besoin est compris
@@ -84,5 +85,10 @@ Les cases cochées ci-dessus représentent les acquis Validated. Une case vide p
 - Compréhension simple : **Practiced** — preuve du 2026-10-03 ci-dessus.
 - Compréhension avec condition : **Learning** — exercice en cours.
 - Itérateurs et générateurs : **TODO** — pas encore étudiés d'après le repère de reprise.
+
+### Environnements Python et uv
+
+- uv : **TODO** — à introduire lorsque le projet nécessite un environnement ou une dépendance externe.
+- Objectif futur : comprendre l'environnement avant de mémoriser les commandes.
 
 Une étape regroupant plusieurs notions reste non validée tant que ses critères ne sont pas remplis. Une fiche ajoutée par l'assistant ne change aucun statut à elle seule.
