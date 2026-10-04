@@ -34,9 +34,10 @@ Une étape peut être travaillée partiellement : dans ce cas, conserver son ét
 | 18 | Mini-projet adapté | Compteur de journal, inventaire ou rapport disque | Vérifier usage, limites, cas invalides et tests |
 | 19 | Architecture simple et dépendances | Séparer métier, CLI, stockage et infrastructure | Justifier chaque séparation et garder des dépendances simples |
 | 20 | Design patterns essentiels : Strategy, Factory, Adapter, Observer | Refactoriser un problème qui justifie réellement un pattern | Expliquer le problème résolu et éviter le pattern s'il ajoute plus de complexité qu'il n'en retire |
-| 21 | Packaging et pyproject.toml | Transformer un projet multi-modules en package installable | Comprendre ce que le packaging apporte avant de l'ajouter |
-| 22 | Profiling et performance | Mesurer un script avant optimisation | Identifier un vrai goulot d'étranglement avec une mesure plutôt qu'une intuition |
-| 23 | asyncio, si le besoin apparaît | Exécuter plusieurs opérations d'E/S concurrentes | Expliquer quand async est utile et quand du code synchrone reste préférable |
+| 21 | Environnements Python et uv | Créer un environnement, gérer les dépendances et exécuter un projet avec uv | Expliquer environnement, dépendance, lockfile et reproduire un environnement propre |
+| 22 | Packaging et pyproject.toml | Transformer un projet multi-modules en package installable | Comprendre ce que le packaging apporte avant de l'ajouter |
+| 23 | Profiling et performance | Mesurer un script avant optimisation | Identifier un vrai goulot d'étranglement avec une mesure plutôt qu'une intuition |
+| 24 | asyncio, si le besoin apparaît | Exécuter plusieurs opérations d'E/S concurrentes | Expliquer quand async est utile et quand du code synchrone reste préférable |
 
 Cadence : définition courte → règle ou syntaxe clé → exemple minimal → erreur fréquente si utile → un exercice → tentative → indice/correction → validation.
 
