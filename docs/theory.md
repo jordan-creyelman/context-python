@@ -388,19 +388,37 @@ Mesurer avant d'optimiser.
 - générateurs;
 - profiling.
 
-### 30. Packaging
+### 30. Environnements Python et uv
+
+À connaître progressivement :
+
+- environnement virtuel ;
+- différence entre Python système et environnement de projet ;
+- dépendances directes et transitives ;
+- `pyproject.toml` ;
+- lockfile ;
+- création et synchronisation d'un environnement avec `uv` ;
+- ajout et suppression de dépendances ;
+- exécution d'une commande ou d'un script dans l'environnement du projet ;
+- reproductibilité d'un environnement sur une autre machine.
+
+Idée clé : `uv` simplifie la gestion d'un projet Python moderne, mais il ne remplace pas la compréhension des notions d'environnement virtuel, dépendance et packaging.
+
+Apprendre les commandes `uv` dans un projet concret lorsque des dépendances externes deviennent réellement nécessaires. Ne pas ajouter une dépendance uniquement pour pratiquer l'outil.
+
+### 31. Packaging
 
 À connaître :
 
 - `pyproject.toml`;
-- package installable;
-- dépendances;
-- structure `src/` lorsqu'elle devient utile;
-- outils modernes comme `uv`.
+- package installable ;
+- dépendances ;
+- structure `src/` lorsqu'elle devient utile ;
+- relation entre packaging, environnement et gestionnaire de dépendances.
 
 Ne pas transformer un petit script en package sans raison.
 
-### 31. HTTP et API
+### 32. HTTP et API
 
 À comprendre :
 
@@ -420,7 +438,7 @@ Outils possibles lorsque nécessaires :
 
 Une réponse réseau est une entrée non fiable.
 
-### 32. Persistance
+### 33. Persistance
 
 À connaître :
 
@@ -432,7 +450,7 @@ Une réponse réseau est une entrée non fiable.
 
 Un repository n'est utile que s'il apporte une vraie séparation entre métier et persistance.
 
-### 33. Sécurité
+### 34. Sécurité
 
 Toujours considérer comme non fiables :
 
