@@ -32,11 +32,14 @@ Ne pas imposer un exercice abstrait si la notion peut être travaillée naturell
 Pour chaque nouvelle notion :
 
 1. définition courte ;
-2. règle ou syntaxe clé ;
-3. exemple minimal ;
-4. une erreur fréquente si pertinente ;
-5. un seul exercice ;
-6. attendre la tentative.
+2. métaphore simple si elle aide réellement à comprendre ;
+3. règle ou syntaxe clé ;
+4. exemple minimal ;
+5. une erreur fréquente si pertinente ;
+6. un seul exercice ;
+7. attendre la tentative.
+
+La métaphore doit rester concrète, courte et fidèle au mécanisme étudié. Ne pas en ajouter si elle risque de rendre la notion plus confuse.
 
 Après la tentative :
 
