@@ -2,6 +2,8 @@
 
 Contexte réutilisable consacré à **l'apprentissage de Python** : théorie courte, pratique progressive, un exercice à la fois et validation réelle des acquis.
 
+Ce dépôt suit les règles communes définies dans `context-template`. Les règles spécifiques à Python restent prioritaires uniquement lorsqu'elles précisent le domaine sans contredire le standard commun.
+
 Explications en français ; code, commentaires, docstrings et messages des scripts en anglais.
 
 ## Principe
@@ -51,6 +53,7 @@ context-python/
 - [docs/progress.md](docs/progress.md) : acquis réellement validés.
 - [docs/conventions.md](docs/conventions.md) : bonnes pratiques Python à apprendre progressivement.
 - [docs/architecture.md](docs/architecture.md) : architecture pragmatique pour les étapes avancées.
+- [docs/context-boundaries.md](docs/context-boundaries.md) : partage des responsabilités avec les autres contextes.
 - [cheatsheets/python.md](cheatsheets/python.md) : mémo Python.
 - [cheatsheets/files-cli.md](cheatsheets/files-cli.md) : fichiers, CLI et tests.
 - [projects/log_summary.py](projects/log_summary.py) : projet de référence à étudier lorsque les prérequis sont acquis.
@@ -94,4 +97,4 @@ Sur Windows, utiliser `py -3` si nécessaire.
 - [Checklist de fin de projet](checklists/project-completion.md) : clôture adaptée aux notions étudiées.
 - [DECISIONS.md](DECISIONS.md) : expliquer les choix et leurs conséquences.
 
-La progression distingue **TODO / Learning / Practiced / Validated** sans cocher de nouvel acquis automatiquement. Les règles pédagogiques restent dans AGENTS.md et docs/learning.md ; les fiches servent de références ciblées.
+La progression distingue **TODO / Learning / Practiced / Validated** et évolue dynamiquement uniquement à partir de preuves réellement observées. Les règles pédagogiques restent dans AGENTS.md et docs/learning.md ; les fiches servent de références ciblées.
