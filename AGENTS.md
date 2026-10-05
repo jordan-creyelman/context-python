@@ -7,6 +7,7 @@ Ce dépôt sert uniquement à apprendre Python progressivement et à construire 
 - Répondre en français.
 - Écrire le code, les noms, commentaires, docstrings et messages des scripts en anglais.
 - Lire ce fichier, [README.md](README.md), [docs/learning.md](docs/learning.md), [docs/roadmap.md](docs/roadmap.md) et [docs/progress.md](docs/progress.md).
+- Respecter `context-template` pour les règles communes de structure, preuves, progression dynamique, sessions, projets et coopération entre contextes.
 - Consulter [docs/theory.md](docs/theory.md) pour la référence théorique Junior → Medium, puis [docs/conventions.md](docs/conventions.md), [docs/architecture.md](docs/architecture.md) et les fiches pertinentes lorsque la notion étudiée le nécessite.
 - Dire si un fichier est inaccessible ; ne jamais prétendre l'avoir lu.
 - Ne pas inventer le niveau, les acquis ou les résultats de l'apprenant.
@@ -99,6 +100,23 @@ Règles :
 10. ne jamais supprimer ou rétrograder un acquis existant sans preuve contradictoire explicite.
 
 Au début d'une nouvelle séance, reprendre automatiquement depuis le premier objectif non Validated compatible avec les prérequis et le projet en cours. Ne pas recommencer une notion déjà validée sauf demande de révision ou difficulté observée.
+
+## Coopération avec les autres contextes
+
+Pour une tâche multi-domaine, appliquer la règle **contexte principal + contextes secondaires**.
+
+`context-python` est le contexte principal lorsque l'objectif central est d'apprendre, écrire, tester, structurer ou déboguer du Python.
+
+Les contextes secondaires apportent uniquement leur expertise :
+
+- `context-security` : validation, sécurité applicative, secrets et durcissement ;
+- `context-github` : Git, GitHub, branches, commits, PR, CI ;
+- `context-maker` : contraintes du projet maker ;
+- autres contextes : uniquement si leur contribution est réellement nécessaire.
+
+Chaque compétence est enregistrée dans le contexte qui en est propriétaire. Un même projet peut produire des preuves dans plusieurs contextes sans dupliquer les mêmes acquis.
+
+Voir [docs/context-boundaries.md](docs/context-boundaries.md).
 
 ## Intégration Git/GitHub
 
