@@ -63,6 +63,17 @@ Ce fichier est la **source de vérité de l'état d'apprentissage**. Il doit êt
 - Difficulté rencontrée : aucune bloquante sur la compréhension simple ; la compréhension avec condition est en cours.
 - Prochaine étape proposée : terminer la compréhension avec condition, puis introduire itérateurs et générateurs avant de valider l'étape 6.
 
+## Priorité actuelle
+
+Terminer l'étape 6 :
+
+1. compréhension avec condition ;
+2. itérateurs ;
+3. générateurs ;
+4. choisir correctement entre boucle, compréhension et générateur.
+
+Ne passer à l'étape suivante qu'après preuve suffisante selon les critères de la roadmap.
+
 ## Points à revoir
 
 - Placement de `input()` par rapport à une boucle.
